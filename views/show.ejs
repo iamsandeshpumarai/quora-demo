@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shows details</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+    *{
+        text-transform: capitalize;
+    }
+</style>
+</head>
+<body>
+<h1>this is the details of <%=post.username  %></h1>
+<div class="post">
+ <h2 class="user">@<%=post.username  %></h2>
+ <h3>content</h3>
+ <p><%=post.content  %></p>
+</div>
+</body>
+</html>
